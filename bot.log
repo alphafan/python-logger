@@ -1,0 +1,31 @@
+[logger.py:55] 2018-01-13 15:41:09 WARNING  [doc_id:1|task_id:2|industry:3] HAHA
+[logger.py:56] 2018-01-13 15:41:09 WARNING  [doc_id:1|task_id:2|industry:3] INFO
+[logger.py:54] 2018-01-13 15:41:27 WARNING  [doc_id:1|task_id:2|industry:3] HAHA
+[logger.py:55] 2018-01-13 15:41:27 WARNING  [doc_id:1|task_id:2|industry:3] INFO
+[logger.py:54] 2018-01-13 15:44:44 WARNING  [doc_id:1|task_id:2|industry:3] HAHA
+[logger.py:55] 2018-01-13 15:44:44 WARNING  [doc_id:1|task_id:2|industry:3] INFO
+[logger.py:56] 2018-01-13 15:44:44 INFO     [doc_id:1|task_id:2|industry:3] INFO
+2018-01-13 15:45:48 DEBUG    [logger.py:54] DEBUG
+2018-01-13 15:45:48 WARNING  [logger.py:55] HAHA
+[logger.py:58] 2018-01-13 15:45:48 WARNING  [doc_id:1|task_id:2|industry:3] INFO
+[logger.py:59] 2018-01-13 15:45:48 INFO     [doc_id:1|task_id:2|industry:3] INFO
+2018-01-13 15:46:29 DEBUG    [logger.py:54] DEBUG
+2018-01-13 15:46:29 WARNING  [logger.py:55] HAHA
+2018-01-13 15:46:29 WARNING  [logger.py:58] [doc_id:1|task_id:2|industry:3] INFO
+2018-01-13 15:46:29 INFO     [logger.py:59] [doc_id:1|task_id:2|industry:3] INFO
+2018-01-13 15:47:01 DEBUG    [logger.py:54] DEBUG
+2018-01-13 15:47:01 WARNING  [logger.py:55] HAHA
+2018-01-13 15:47:01 WARNING  [logger.py:58] [doc_id:1|task_id:2|industry:3] INFO
+2018-01-13 15:47:01 INFO     [logger.py:59] [doc_id:1|task_id:2|industry:3] INFO
+2018-01-13 15:47:47 DEBUG    [ logger.py: 54] DEBUG
+2018-01-13 15:47:47 WARNING  [ logger.py: 55] HAHA
+2018-01-13 15:47:47 WARNING  [ logger.py: 58] [doc_id:    1|task_id:    2|industry:         3] INFO
+2018-01-13 15:47:47 INFO     [ logger.py: 59] [doc_id:    1|task_id:    2|industry:         3] INFO
+2018-01-13 15:48:22 DEBUG    [logger.py:54] DEBUG
+2018-01-13 15:48:22 WARNING  [logger.py:55] HAHA
+2018-01-13 15:48:22 WARNING  [logger.py:58] [doc_id:1|task_id:2|industry:3] INFO
+2018-01-13 15:48:22 INFO     [logger.py:59] [doc_id:1|task_id:2|industry:3] INFO
+2018-01-13 15:48:43 DEBUG    [logger.py:54] DEBUG_LOG
+2018-01-13 15:48:43 WARNING  [logger.py:55] HAHA_LOG
+2018-01-13 15:48:43 WARNING  [logger.py:58] [doc_id:1|task_id:2|industry:3] INFO_LOG
+2018-01-13 15:48:43 INFO     [logger.py:59] [doc_id:1|task_id:2|industry:3] INFO_LOG

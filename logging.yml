@@ -1,0 +1,34 @@
+version: 1
+formatters:
+  default:
+    format: '%(asctime)s %(levelname)-8s [%(filename)s:%(lineno)d] %(message)s'
+    datefmt: '%Y-%m-%d %H:%M:%S'
+  wrapped:
+    format: '%(asctime)s %(levelname)-8s [%(filename)s:%(lineno)d] [doc_id:%(doc_id)d|task_id:%(task_id)d|industry:%(industry)s] %(message)s'
+    datefmt: '%Y-%m-%d %H:%M:%S'
+handlers:
+  console_default:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: default
+    stream: ext://sys.stdout
+  file_default:
+    () : logger.LoggerFactory._fileLogMaker
+    formatter: default
+  console_wrapped:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: wrapped
+    stream: ext://sys.stdout
+  file_wrapped:
+    () : logger.LoggerFactory._fileLogMaker
+    formatter: wrapped
+loggers:
+  default:
+    level: DEBUG
+    handlers: [console_default, file_default]
+    propagate: no
+  wrapped:
+    level: DEBUG
+    handlers: [console_wrapped, file_wrapped]
+    propagate: no
