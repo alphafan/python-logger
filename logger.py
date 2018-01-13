@@ -56,13 +56,9 @@ class _ContextFilter(logging.Filter):
 
 if __name__ == '__main__':
     log = LoggerFactory.getDefaultLogger()
-    log.debug('DEBUG_LOG')
-    log.warning('HAHA_LOG')
+    log.debug('Default log debug')
+    log.warning('Default log warning')
 
     log = LoggerFactory.getWrappedLogger(1, 2, 3)
-    log.warning('INFO_LOG')
-    log.info('INFO_LOG')
-
-    log = LoggerFactory.getWrappedLogger(4, 5, 6)
-    log.warning('INFO_LOG')
-    log.info('INFO_LOG')
+    log.warning('Wrapped warning')
+    log.info('Wrapped info')

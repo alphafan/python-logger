@@ -49,3 +49,7 @@
 2018-01-13 18:35:32 INFO     [logger.py:64] [doc_id:1|task_id:2|industry:3] INFO_LOG
 2018-01-13 18:35:32 WARNING  [logger.py:67] [doc_id:4|task_id:5|industry:6] INFO_LOG
 2018-01-13 18:35:32 INFO     [logger.py:68] [doc_id:4|task_id:5|industry:6] INFO_LOG
+2018-01-13 20:54:13 DEBUG    [logger.py:59] Default log debug
+2018-01-13 20:54:13 WARNING  [logger.py:60] Default log warning
+2018-01-13 20:54:13 WARNING  [logger.py:63] [doc_id:1|task_id:2|industry:3] Wrapped warning
+2018-01-13 20:54:13 INFO     [logger.py:64] [doc_id:1|task_id:2|industry:3] Wrapped info
