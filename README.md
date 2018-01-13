@@ -20,9 +20,9 @@ log.info('Wrapped info')
 
 Example output:
 
-"""
+```
 2018-01-13 20:54:13 DEBUG    [logger.py:59] Default log debug
 2018-01-13 20:54:13 WARNING  [logger.py:60] Default log warning
 2018-01-13 20:54:13 WARNING  [logger.py:63] [doc_id:1|task_id:2|industry:3] Wrapped warning
 2018-01-13 20:54:13 INFO     [logger.py:64] [doc_id:1|task_id:2|industry:3] Wrapped info
-"""
+```
