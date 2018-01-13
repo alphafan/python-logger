@@ -6,6 +6,9 @@ import logging.config
 
 class LoggerFactory(object):
 
+    def __init__(self):
+        assert False, 'LoggerFactory can not be initialized.'
+
     @staticmethod
     def getDefaultLogger():
         return LoggerFactory._getLogger('default')
@@ -50,11 +53,16 @@ class _ContextFilter(logging.Filter):
         record.industry = self.industry
         return True
 
+
 if __name__ == '__main__':
     log = LoggerFactory.getDefaultLogger()
     log.debug('DEBUG_LOG')
     log.warning('HAHA_LOG')
 
     log = LoggerFactory.getWrappedLogger(1, 2, 3)
+    log.warning('INFO_LOG')
+    log.info('INFO_LOG')
+
+    log = LoggerFactory.getWrappedLogger(4, 5, 6)
     log.warning('INFO_LOG')
     log.info('INFO_LOG')
