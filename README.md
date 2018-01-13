@@ -1,8 +1,8 @@
 ## python-logger
 
 Two kinds of logger:
-    - Default logger configured in file logging.yml
-    - Wrapped logger uses a context filter to append additional information
+   - Default logger configured in file logging.yml
+   - Wrapped logger uses a context filter to append additional information
 
 How to use this API
 
